@@ -23,7 +23,7 @@ jobs:
       GH_TOKEN: ${{ secrets.WORKFLOW_PAT }}
     steps:
       - name: Run sync-subtrees-action
-        uses: usgs-coupled/sync-subtrees-action@main
+        uses: usgs-coupled-subtrees/sync-subtrees-action@main
         with:
           dryRun: ${{ inputs.dryRun }}
           testMerge: ${{ inputs.testMerge }}
