@@ -1,8 +1,8 @@
 {
   "iphreeqc-src": {
     "superprojects": [
-      "usgs-coupled/iphreeqc",
-      "usgs-coupled/iphreeqccom",
+      "usgs-coupled-subtrees/iphreeqc",
+      "usgs-coupled-subtrees/iphreeqccom",
       "usgs-coupled-subtrees/phreeqcrm-src"
     ]
   }
